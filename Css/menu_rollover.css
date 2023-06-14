@@ -39,7 +39,7 @@ body {
     cursor:pointer;
 }
 
-.menu li:hover ul{
+.menu li:hover {
     background-color: #5eafdf;
     color: #fff;
 }
@@ -54,8 +54,8 @@ body {
 
 .submenu {
     padding: 0;
-    left: 0
-    position absolute;
+    left: 0;
+    position: absolute;
     top: 43.5px;
     width: 125.5px;
     opacity: 0;
